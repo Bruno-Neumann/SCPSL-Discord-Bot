@@ -78,3 +78,10 @@
   Now replace \<id\> with the account id, \<api\> with your api and \<TOKEN\> with your bot token
   
   ![Alt Text](https://i.ibb.co/71tWhDV/screen.png)
+  
+##
+### Other
+
+  The bot currently only supports one server!
+  
+  If you need help feel free to dm me [Bruno.#7047](https://discordapp.com/users/743877023394693302)
