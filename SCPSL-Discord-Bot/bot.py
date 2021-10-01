@@ -1,8 +1,9 @@
 import asyncio
 import discord
-from discord.ext import commands
 import requests
 import json
+from discord.ext import commands
+
 
 bot = commands.Bot(command_prefix="!")
 @bot.event
