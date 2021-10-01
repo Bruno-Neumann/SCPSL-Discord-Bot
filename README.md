@@ -52,10 +52,11 @@
 ##
 ### Get your server account id and the api key
 
-  You can use the scpsl server console to get the api key
+  You can use the scpsl server console to get the id
   
     !id
-    
+  And the api key
+  
     !api show
 
 ##
@@ -74,6 +75,6 @@
 ##
 ### Edit bot.py
   
-  Now replace <id> with the account id, <api> with your api and <TOKEN> with your bot token
+  Now replace \<id\> with the account id, \<api\> with your api and \<TOKEN\> with your bot token
   
   ![Alt Text](https://i.ibb.co/71tWhDV/screen.png)
