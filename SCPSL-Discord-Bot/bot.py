@@ -3,7 +3,7 @@ import discord
 import requests
 import json
 
-bot = discord.Client
+bot = commands.Bot(command_prefix="!")
 @bot.event
 async def on_ready():
     print("The bot is running.")
