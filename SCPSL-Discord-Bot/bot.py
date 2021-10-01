@@ -1,12 +1,9 @@
-from asyncio.tasks import wait_for
+import asyncio
 import discord
 import requests
 import json
-import time
-from discord.ext import commands
 
-
-bot = commands.Bot(command_prefix="!")
+bot = discord.Client
 @bot.event
 async def on_ready():
     print("The bot is running.")
@@ -15,7 +12,7 @@ async def on_ready():
         data = json.loads(t)
         await bot.change_presence(activity=discord.Game(name=data["Servers"][0]["Players"]))
         print(data["Servers"][0]["Players"])        
-        time.sleep(12)
+        await asyncio.sleep(60)
 
 
 bot.run("Token")
