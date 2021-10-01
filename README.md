@@ -30,4 +30,23 @@
     sudo apt install screen
     
 **3. Installing the bot**
- 
+
+  * Download the files in the [SCPSL-Discord-Bot](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/tree/main/SCPSL-Discord-Bot) folder
+
+  * Get your server [account id and api key]()
+
+  * Create a bot on discord
+
+  * Edit the bot.py file
+
+**4. Run the bot**
+  
+   On Windows you can just open bot.py
+
+   On Linux you can just open the bot.py
+
+   On Linux via ssh you need to navigate to the directory where the bot is located and us the command
+   
+    ./start.sh
+    
+### Get your server account id and the api key
