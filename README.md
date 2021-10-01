@@ -33,11 +33,11 @@
 
   * Download the files in the [SCPSL-Discord-Bot](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/tree/main/SCPSL-Discord-Bot) folder
 
-  * Get your server [account id and api key]()
+  * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/blob/main/README.md#get-your-server-account-id-and-the-api-key)
 
-  * Create a bot on discord
+  * Get a [bot token]()
 
-  * Edit the bot.py file
+  * Edit the [bot.py file]()
 
 **4. Run the bot**
   
@@ -48,5 +48,32 @@
    On Linux via ssh you need to navigate to the directory where the bot is located and us the command
    
     ./start.sh
-    
+ 
+##
 ### Get your server account id and the api key
+
+  You can use the scpsl server console to get the api key
+  
+    !id
+    
+    !api show
+
+##
+### Get a bot token
+
+  You need to got to the [Discord Developer Portaal](https://discord.com/developers/applications) then click New Application in the top right corner.
+  
+  You can name the bot how ever you want.
+  
+  Click on create and then click on the left side bot.
+  
+  You need to build a bot then you can see the profile of your bot.
+  
+  Get the toke by clicking on copy.
+  
+##
+### Edit bot.py
+  
+  Now replace <id> with the account id, <api> with your api and <TOKEN> with your bot token
+  
+  ![Alt Text](https://i.ibb.co/71tWhDV/screen.png)
