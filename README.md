@@ -33,7 +33,7 @@
 
   * Download the files in the [SCPSL-Discord-Bot](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/tree/main/SCPSL-Discord-Bot) folder
 
-  * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/blob/main/README.md#get-your-server-account-id-and-the-api-key)
+  * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-your-server-account-id-and-the-api-key)
 
   * Get a [bot token](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/blob/main/README.md#get-a-bot-token)
 
