@@ -35,9 +35,9 @@
 
   * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-your-server-account-id-and-the-api-key)
 
-  * Get a [bot token](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/blob/main/README.md#get-a-bot-token)
+  * Get a [bot token](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-a-bot-token)
 
-  * Edit the [bot.py file](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/blob/main/README.md#edit-botpy)
+  * Edit the [bot.py file](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#edit-botpy)
 
 **4. Run the bot**
   
