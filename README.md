@@ -70,7 +70,7 @@
   
   You need to build a bot then you can see the profile of your bot.
   
-  Get the toke by clicking on copy.
+  Get the token by clicking on copy.
   
 ##
 ### Edit bot.py
