@@ -1,1 +1,1 @@
-screen -S SCP:SL Playercount python3 bot.py
+screen -S SCP:SL_Playercount python3 bot.py
