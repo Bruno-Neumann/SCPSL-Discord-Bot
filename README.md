@@ -3,7 +3,7 @@
 ##
 ### Requirements
 
-* SCP:SL Gameserver
+* verified SCP:SL Gameserver
 
 * Something to run the bot 24/7
 
