@@ -77,7 +77,7 @@
   
   Now replace \<id\> with the account id, \<api\> with your api and \<TOKEN\> with your bot token
   
-  ![Alt Text](https://i.ibb.co/71tWhDV/screen.png)
+  ![Alt Text](https://i.ibb.co/p1stbVy/tutorial.jpg)
   
 ##
 ### Other
