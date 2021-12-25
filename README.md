@@ -62,7 +62,7 @@
 ##
 ### Get a bot token
 
-  You need to got to the [Discord Developer Portaal](https://discord.com/developers/applications) then click New Application in the top right corner.
+  You need to got to the [Discord Developer Portal](https://discord.com/developers/applications) then click New Application in the top right corner.
   
   You can name the bot how ever you want.
   
