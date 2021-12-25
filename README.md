@@ -23,13 +23,23 @@
   
     py -3 -m pip install -U discord.py
     
-**2. Using Screen (Linux only)**
+**2. Installing requests**
+  
+  You can install it on Linux/macOS by using this command
+  
+    pip install requests
+    
+  You can install it on Windows by using this command
+  
+    pip install requests
+    
+**3. Using Screen (Linux only)**
   
   Install Screen by using this command
   
     sudo apt install screen
     
-**3. Installing the bot**
+**4. Installing the bot**
 
   * Download the files in the [SCPSL-Discord-Bot](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/tree/main/SCPSL-Discord-Bot) folder
 
