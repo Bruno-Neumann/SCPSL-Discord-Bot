@@ -39,14 +39,6 @@
 
   * Edit the [bot.py file](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#edit-botpy)
 
-**4. Run the bot**
-  
-   On Windows you can just open bot.py
-
-   On Linux you can just open the bot via ssh you need to navigate to the directory where the bot is located and us the command
-   
-    ./start.sh
- 
 ##
 ### Get your server account id and the api key
 
@@ -77,6 +69,14 @@
   
   ![Alt Text](https://i.ibb.co/p1stbVy/tutorial.jpg)
   
+##
+## Run the bot
+  
+   On Windows you can just open bot.py
+
+   On Linux you can just open the bot via ssh you need to navigate to the directory where the bot is located and us the command
+   
+    ./start.sh
 ##
 ### Other
 
