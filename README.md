@@ -43,9 +43,7 @@
   
    On Windows you can just open bot.py
 
-   On Linux you can just open the bot.py
-
-   On Linux via ssh you need to navigate to the directory where the bot is located and us the command
+   On Linux you can just open the bot via ssh you need to navigate to the directory where the bot is located and us the command
    
     ./start.sh
  
