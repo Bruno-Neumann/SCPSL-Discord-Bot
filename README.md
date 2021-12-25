@@ -3,7 +3,7 @@
 ##
 ### Requirements
 
-* SCP:SL Gameserver
+* Verified SCP:SL Gameserver
 
 * Something to run the bot 24/7
 
@@ -75,9 +75,9 @@
 ##
 ### Edit bot.py
   
-  Now replace \<id\> with the account id, \<api\> with your api and \<TOKEN\> with your bot token
+  Now paste your account id and the api key in the quotes and the  bot token in the quotes on the bottom.
   
-  ![Alt Text](https://i.ibb.co/71tWhDV/screen.png)
+  ![Alt Text](https://i.ibb.co/p1stbVy/tutorial.jpg)
   
 ##
 ### Other
