@@ -92,4 +92,4 @@
 
   The bot currently only supports one server!
   
-  If you need help feel free to dm me [Bruno.#7047](discord://discordapp.com/users/743877023394693302)
+  If you need help feel free to dm me [Bruno.#7047](https://discordapp.com/users/743877023394693302)
