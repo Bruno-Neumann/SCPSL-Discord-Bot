@@ -75,7 +75,7 @@
 ##
 ### Edit bot.py
   
-  Now paste your account id and the api key in the quotes and the  bot token in the quotes on the bottom.
+  Now paste your account id and the api key in the quotes and the  bot token in the quotes at the start of the code.
   
   ![Alt Text](https://i.ibb.co/p1stbVy/tutorial.jpg)
   
