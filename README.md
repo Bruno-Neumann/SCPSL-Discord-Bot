@@ -41,7 +41,7 @@
     
 **4. Installing the bot**
 
-  * Download the latest release [here](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/releases/latest) folder
+  * Download the latest release [here](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/releases/latest)
 
   * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-your-server-account-id-and-the-api-key)
 
