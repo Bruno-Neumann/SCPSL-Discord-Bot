@@ -7,7 +7,7 @@ from discord.ext import commands
 id  = ""
 api = ""
 
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 @bot.event
 async def on_ready():
     print("The bot is running.")
@@ -20,3 +20,4 @@ async def on_ready():
 
 
 bot.run("Token")
+
