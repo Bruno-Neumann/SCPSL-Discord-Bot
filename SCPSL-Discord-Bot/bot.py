@@ -2,12 +2,10 @@ import asyncio
 import discord
 import requests
 import json
-from discord.ext import commands
 
 id  = ""
 api = ""
 
-bot = commands.Bot(command_prefix="!")
 @bot.event
 async def on_ready():
     print("The bot is running.")
