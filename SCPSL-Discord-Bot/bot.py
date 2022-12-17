@@ -6,7 +6,7 @@ import json
 id  = ""
 api = ""
 
-bot = discord.Client()
+bot = discord.Client
 
 @bot.event
 async def on_ready():
