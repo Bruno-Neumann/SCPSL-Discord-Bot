@@ -6,6 +6,8 @@ import json
 id  = ""
 api = ""
 
+bot = discord.Client()
+
 @bot.event
 async def on_ready():
     print("The bot is running.")
