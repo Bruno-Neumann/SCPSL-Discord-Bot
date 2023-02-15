@@ -2,7 +2,6 @@ import asyncio
 import discord
 import requests
 import json
-from discord.ext import commands
 
 id  = ""
 api = ""
