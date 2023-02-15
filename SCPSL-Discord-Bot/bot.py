@@ -6,7 +6,7 @@ import json
 id  = ""
 api = ""
 
-bot = discord.Client
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 
 @bot.event
 async def on_ready():
