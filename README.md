@@ -1,7 +1,4 @@
 # SCPSL-Discord-Bot
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg?colorB=brightgreen)](https://github.com/Playofthes/SCP-SL-QR-Reader/blob/master/LICENSE)
-[![Codesize](https://img.shields.io/github/languages/code-size/Playofthes/SCP-SL-QR-Reader?colorB=orange)](https://github.com/Playofthes/SCP-SL-QR-Reader/)
-[![Release](https://img.shields.io/github/v/release/Playofthes/SCP-SL-QR-Reader)](https://github.com/Playofthes/SCP-SL-QR-Reader/releases/latest)
 <br>
 ### SCPSL Discord Bot is a Player Count bot written in python for Discord.
 ##
