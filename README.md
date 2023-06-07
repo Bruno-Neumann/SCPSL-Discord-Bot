@@ -41,13 +41,13 @@
     
 **4. Installing the bot**
 
-  * Download the latest release [here](https://github.com/Bruno-LGS/SCPSL-Discord-Bot/releases/latest)
+  * Download the latest release [here](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot/releases/latest)
 
-  * Get your server [account id and api key](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-your-server-account-id-and-the-api-key)
+  * Get your server [account id and api key](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot#get-your-server-account-id-and-the-api-key)
 
-  * Get a [bot token](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#get-a-bot-token)
+  * Get a [bot token](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot#get-a-bot-token)
 
-  * Edit the [bot.py file](https://github.com/Bruno-LGS/SCPSL-Discord-Bot#edit-botpy)
+  * Edit the [bot.py file](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot#edit-botpy)
 
 ##
 ### Get your server account id and the api key
