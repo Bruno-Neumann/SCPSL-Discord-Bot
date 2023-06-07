@@ -1,5 +1,7 @@
 # SCPSL-Discord-Bot
-<br>
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg?colorB=brightgreen)](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot/blob/master/LICENSE)
+[![Codesize](https://img.shields.io/github/languages/code-size/Bruno-Neumann/SCPSL-Discord-Bot?colorB=orange)](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot)
+[![Release](https://img.shields.io/github/v/release/Bruno-Neumann/SCPSL-Discord-Bot)](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot/releases/latest)
 ### SCPSL Discord Bot is a Player Count bot written in python for Discord.
 ##
 ### Requirements
