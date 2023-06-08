@@ -1,5 +1,6 @@
 import asyncio
 import discord
+from discord.ext import commands
 import requests
 import json
 
@@ -7,11 +8,6 @@ import json
 
 id  = ""
 api = ""
-
-#If you have more than 1 server and want this bot to display the other servers change this value. 
-#1st server = 0, 2nd = 1, 3rd = 2 etc
-
-server = 0
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 
@@ -21,7 +17,7 @@ async def on_ready():
     while True:
         t = requests.get(f"https://api.scpslgame.com/serverinfo.php?id={id}&key={api}&players=true").text
         data = json.loads(t)
-        playercount= data["Servers"][server]["Players"]
+        playercount= data["Servers"][0]["Players"]
         await bot.change_presence(activity=discord.Game(name=playercount))
         print(playercount)        
         await asyncio.sleep(60)
