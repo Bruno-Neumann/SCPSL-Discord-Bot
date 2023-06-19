@@ -96,4 +96,4 @@
   The bot currently only supports one server per bot!
   If you have two servers running you can create a new bot and change the server variable.
   
-  If you need help feel free to dm me [Bruno.#7047](https://discordapp.com/users/743877023394693302)
+  If you need help feel free to dm me [_bruno.](https://discordapp.com/users/743877023394693302)
