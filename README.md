@@ -76,7 +76,7 @@
   Get the token by clicking on copy.
   
 ##
-### Edit bot.py
+### Edit main.py
   
   Now paste your account id and the api key in the quotes and the  bot token in the quotes.
   
