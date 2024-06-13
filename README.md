@@ -36,13 +36,7 @@
   
     py -3 -m pip install -U requests
     
-**3. Using Screen (Linux only)**
-  
-  Install Screen by using this command
-  
-    sudo apt install screen
-    
-**4. Installing the bot**
+**3. Installing the bot**
 
   * Download the latest release [here](https://github.com/Bruno-Neumann/SCPSL-Discord-Bot/releases/latest)
 
