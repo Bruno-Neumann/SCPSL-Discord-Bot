@@ -30,11 +30,11 @@
   
   You can install it on Linux/macOS by using this command
   
-    pip install requests
+    python3 -m pip install -U requests
     
   You can install it on Windows by using this command
   
-    pip install requests
+    py -3 -m pip install -U requests
     
 **3. Using Screen (Linux only)**
   
