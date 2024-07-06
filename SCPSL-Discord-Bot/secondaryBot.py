@@ -39,10 +39,8 @@ async def on_ready():
 
             await bot.change_presence(status=stat,activity=discord.Game(name=playercount))
             print(playercount)     
-
-            waitTime = data["Cooldown"] + 2
         else:
-            print("Error 503: Rate limit exceeded")
+            print("ERROR: " + data["Error"])
         await asyncio.sleep(waitTime)
 
 
