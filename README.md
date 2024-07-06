@@ -83,7 +83,7 @@
 
    On Debian/Ubuntu you can just open the bot via the terminal. You need to navigate to the directory where the bot is located and use the command
    
-    ./start.sh
+    ./main.py
 ##
 ### Other
   If you need help feel free to dm me [_bruno.](https://discordapp.com/users/743877023394693302)
