@@ -5,16 +5,20 @@ import requests
 import json
 
 #Insert the api key and Account ID of your server here.
-
 id  = ""
 api = ""
 
+#Set this to False if you dont want the bot to change status depending on player count
 enableStatus = True
 
-bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
-
+#How often the bot should query the API in seconds
 waitTime = 15
 
+#Set this to True if you wish to use the secondary bot
+enableSecondaryBot = False
+
+
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 @bot.event
 async def on_ready():
     print("The bot is running.")
@@ -23,9 +27,10 @@ async def on_ready():
         data = json.loads(t)
 
         if data["Success"] == True:
-            f = open("data.json", "w")
-            f.write(t)
-            f.close()
+            if enableSecondaryBot == True:
+                f = open("data.json", "w")
+                f.write(t)
+                f.close()
 
             #Change the 0 if you want to display another server
             #0 = 1st server, 1 = 2nd server, 2 = 3rd server and so on.
