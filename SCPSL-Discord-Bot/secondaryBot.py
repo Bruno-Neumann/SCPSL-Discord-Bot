@@ -6,11 +6,11 @@ import discord
 from discord.ext import commands
 import json
 
-EnableStatus = True
+enableStatus = True
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 
-waitTime= 15
+waitTime = 15
 
 @bot.event
 async def on_ready():
@@ -25,7 +25,7 @@ async def on_ready():
             #0 = 1st server, 1 = 2nd server, 2 = 3rd server and so on.
             playercount= data["Servers"][1]["Players"]
 
-            if EnableStatus == True:
+            if enableStatus == True:
                 sep = '/'
                 totalPlayers = int(playercount.split(sep, 1)[0])
                 totalSlots = int(playercount.split(sep, 1)[1])
