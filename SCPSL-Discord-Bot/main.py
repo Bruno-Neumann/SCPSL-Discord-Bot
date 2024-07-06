@@ -17,7 +17,6 @@ waitTime = 15
 #Set this to True if you wish to use the secondary bot
 enableSecondaryBot = False
 
-
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 @bot.event
 async def on_ready():
@@ -49,10 +48,10 @@ async def on_ready():
             await bot.change_presence(status=stat,activity=discord.Game(name=playercount))
             print(playercount)     
 
-            waitTime = data["Cooldown"] + 1
         else:
-            print("Error 503: Rate limit exceeded")
+            print("ERROR: " + data["Error"])
         await asyncio.sleep(waitTime)
 
 
 bot.run("Token")
+
