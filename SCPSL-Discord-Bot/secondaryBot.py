@@ -8,12 +8,12 @@ import json
 
 #Set this to False if you dont want the bot to change status depending on player count
 enableStatus = True
+
 #How often the bot should query the API in seconds
 waitTime = 15
 
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
-
 @bot.event
 async def on_ready():
     print("The bot is running.")
