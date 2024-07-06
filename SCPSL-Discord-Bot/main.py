@@ -9,11 +9,11 @@ import json
 id  = ""
 api = ""
 
-EnableStatus = True
+enableStatus = True
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.none())
 
-waitTime= 15
+waitTime = 15
 
 @bot.event
 async def on_ready():
@@ -29,18 +29,17 @@ async def on_ready():
 
             #Change the 0 if you want to display another server
             #0 = 1st server, 1 = 2nd server, 2 = 3rd server and so on.
-            playercount= data["Servers"][0]["Players"]
+            playercount = data["Servers"][0]["Players"]
 
-            if EnableStatus == True:
-                sep = '/'
-                totalPlayers = int(playercount.split(sep, 1)[0])
-                totalSlots = int(playercount.split(sep, 1)[1])
+            if enableStatus == True:
+                totalPlayers = int(playercount.split("/", 1)[0])
+                totalSlots = int(playercount.split("/", 1)[1])
                 if totalPlayers == 0:
                     stat = discord.Status.idle
                 elif totalPlayers == totalSlots:
-                    stat= discord.Status.dnd
+                    stat = discord.Status.dnd
                 else:
-                    stat= discord.Status.online
+                    stat = discord.Status.online
 
             await bot.change_presence(status=stat,activity=discord.Game(name=playercount))
             print(playercount)     
